@@ -1,0 +1,13 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.first-image{
+    max-width: 100% !important;
+}
+
+.img-footer{
+    position: relative;
+}

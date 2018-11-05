@@ -4,32 +4,60 @@
     margin: 0px;
 }
 
-.first-image{
-    max-width: 100% !important;
-}
 
-.img-footer{
+.img-footer {
     position: relative;
 }
 
-.orange-text{
-    color: #e19b5f;
+.orange-text {
+    color: #e19b5f !important;
 }
 
-.blue-purple-text{
-    color: #a3a3e6;
+.blue-purple-text {
+    color: #a3a3e6 !important;
 }
 
-.blue-text{
+.blue-text {
     color: #4747ce;
 }
-.logo-image{
+
+.logo-image {
     max-width: 10em;
 }
 
-.text-alignment{ 
+.text-alignment {
     align-self: center;
 }
-.card{
+
+.card {
     margin: 0 auto;
+}
+
+.navbar-link {
+    color: #4747ce;
+}
+
+.first-image {
+    max-width: 100% !important;
+}
+
+.navbar-light {
+    background-color: aliceblue;
+}
+
+.height-card-logos {
+    height: 22em;
+}
+
+.card-framworks-size-top-row {
+    height: 45em;
+}
+
+.card-framworks-size {
+    height: 55em;
+}
+
+.text-footer {
+    position: absolute;
+    z-index: 2;
 }

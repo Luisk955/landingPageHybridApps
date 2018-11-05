@@ -14,28 +14,36 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg fixed-top  navbar-light mb-5">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link orange-text" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link orange-text" href="#mobileApps">Aplicaciones móviles híbridas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link orange-text" href="#frameworks">Frameworks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link orange-text" href="#benefits">Beneficios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link orange-text" href="#someFrameWorks">Algunos frameworks</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <main>
-        <section id="mobileApps">
+    <main class="mt-5">
+        <section id="mobileApps" class="mt-5">
             <div class="container-fluid mt-3">
                 <div class="row">
                     <div class="col-6 text-alignment">
@@ -84,7 +92,7 @@
                 <h2 class="text-center orange-text mb-5">Beneficios</h2>
                 <div class="row mt-3">
                     <div class="col-md-3 mx-auto">
-                        <div class="card  text-center mt-3" style="width: 18rem;">
+                        <div class="card  text-center mt-3 height-card-logos" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/iconos-02.png" alt="Card image cap">
                             <div class="card-body ">
                                 <p class="card-text">Reducen notablemente el tiempo y los costos de producción de una
@@ -93,7 +101,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 mx-auto">
-                        <div class="card text-center mt-3" style="width: 18rem;">
+                        <div class="card text-center mt-3 height-card-logos" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/iconos-03.png" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">Se pueden programar para múltiples plataformas, ya que la versión
@@ -102,7 +110,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 mx-auto">
-                        <div class="card text-center mt-3" style="width: 18rem;">
+                        <div class="card text-center mt-3 height-card-logos" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/iconos-04.png" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">Combinando las virtudes del desarrollo web con el acceso a todas
@@ -111,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 mx-auto">
-                        <div class="card text-center mt-3" style="width: 18rem;">
+                        <div class="card text-center mt-3 height-card-logos" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/iconos-05.png" alt="Card image cap">
                             <div class="card-body">
                                 <p class="card-text">Acceso online y offline, Los desarrolladores tienen la opción de
@@ -133,7 +141,7 @@
                 </div>
                 <div class="row" id="firstRow">
                     <div class="col-md-4">
-                        <div class="card mt-5" style="width: 18rem;">
+                        <div class="card mt-5 card-framworks-size-top-row" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/logos/xama.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Xamarin</h5>
@@ -154,7 +162,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card mt-5" style="width: 18rem;">
+                        <div class="card mt-5 card-framworks-size-top-row" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/logos/ionicLogo.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Ionic</h5>
@@ -175,35 +183,33 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card mt-5" style="width: 18rem;">
+                        <div class="card mt-5 card-framworks-size-top-row" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/logos/phoneG.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Phonegap</h5>
                                 <p class="card-text">Es una distribución de código abierto de Cordova framework, el
                                     cual se puede reutilizar las habilidades de desarrollo web existentes para crear
                                     rápidamente aplicaciones híbridas creadas con HTML, CSS y JavaScript para múltiples
-                                    plataformas con una única base de código para que pueda llegar a su audiencia sin
-                                    importar su dispositivo.</p>
+                                    plataformas.</p>
                                 <h5>Pros</h5>
                                 <ul>
                                     <li>Ofrece un servicio en la nube llamado PhoneGap Build que permite construir
-                                        rápidamente apps móviles y compilarlas con facilidad sin necesidad de SDKs,
-                                        compiladores o hardware específico.</li>
+                                        rápidamente apps móviles y compilarlas con facilidad.</li>
                                 </ul>
                                 <h5>Cons</h5>
                                 <ul>
                                     <li>Las aplicaciones creadas con PhoneGap sólo pueden nutrirse de HTML, CSS y
-                                        Javascript. Si requieren lógica generada por otros lenguajes de programación,
-                                        deberán conseguirla de un backend a través de APIs o webservices.</li>
+                                        Javascript.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5" id="secondRow">
+                <div class="row" id="secondRow">
                     <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top logo-image mx-auto d-block" src="img/logos/NativeScript_logo.png" alt="Card image cap">
+                        <div class="card mt-5 card-framworks-size" style="width: 18rem;">
+                            <img class="card-img-top logo-image mx-auto d-block" src="img/logos/NativeScript_logo.png"
+                                alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Native script</h5>
                                 <p class="card-text"> Permite escribir la funcionalidad de tu aplicación en JavaScript,
@@ -225,7 +231,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="card mt-5" style="width: 18rem;">
+                        <div class="card mt-5 card-framworks-size" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/logos/jquery.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">JQuery Mobile</h5>
@@ -249,7 +255,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card mt-5" style="width: 18rem;">
+                        <div class="card mt-5 card-framworks-size" style="width: 18rem;">
                             <img class="card-img-top logo-image mx-auto d-block" src="img/logos/react.png" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">React Native</h5>
@@ -279,12 +285,7 @@
 
     <footer>
         <img src="/img/footer.png" alt="" class="img img-responsive first-image img-footer">
-        <div class="container-fluid">
-            <div class="row text-right">
-                <h5 class="txt-footer">© Copyright 2018. All rights reserved.</h5>
-            </div>
-        </div>
-
+        <h5 class="txt-footer">© Copyright 2018. All rights reserved.</h5>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -4,7 +4,6 @@
     margin: 0px;
 }
 
-
 .img-footer {
     position: relative;
 }
@@ -72,7 +71,14 @@
     height: 55em;
 }
 
-.text-footer {
+footer{
     position: absolute;
-    z-index: 2;
+}
+.text-footer {
+   /* position: absolute;
+    z-index: 2;*/
+    color: #fff;
+    position: absolute;
+    right: .9em;
+    bottom: 1em;
 }

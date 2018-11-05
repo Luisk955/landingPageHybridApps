@@ -22,7 +22,7 @@
 }
 
 .logo-image {
-    max-width: 10em;
+    max-width: 9em;
 }
 
 .text-alignment {
@@ -47,6 +47,21 @@
 
 .height-card-logos {
     height: 22em;
+    border: none;
+}
+
+.card-framworks{
+    margin: 0 2em;
+    padding:  1em .5em;
+    border: none;
+    -webkit-box-shadow: 1px 10px 44px -12px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 10px 44px -12px rgba(0,0,0,0.73);
+    box-shadow: 1px 10px 44px -12px rgba(0,0,0,0.73);
+}
+
+.card-framworks ul{
+    margin-left: .8em;
+    text-align: left;
 }
 
 .card-framworks-size-top-row {
